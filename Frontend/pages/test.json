@@ -1,0 +1,9 @@
+{
+    "text": "thanh oc",
+    "lan": "vi",
+    "ngram": 3,
+    "feauture": [
+        "WRel",
+        "tf"
+    ]
+}

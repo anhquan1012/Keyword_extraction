@@ -32,13 +32,13 @@
       </v-row>
       <v-row>
         <v-col cols="3">
-          <v-select label="Language" :items="lan"></v-select>
+          <v-select label="Language" :items="lan" v-model="lan_req"></v-select>
         </v-col>
         <v-col cols="3">
-          <v-select label="N-gram" :items="ngram"></v-select>
+          <v-select label="N-gram" :items="ngram" v-model="ngram_req"></v-select>
         </v-col>
         <v-col cols="3">
-          <v-select label="Feauture" :items="feauture"></v-select>
+          <v-select label="Feauture" :items="feauture" v-model="feauture_req" attach multiple></v-select>
         </v-col>
       </v-row>
       <v-row>
@@ -76,6 +76,9 @@ export default {
       ngram: [1, 2, 3, 4, 5],
       text: "",
       textraw: "",
+      lan_req: "vi",
+      feauture_req: ["WRel", "tf"],
+      ngram_req: 3,
       headers: [
         {
           text: "Words",
@@ -95,8 +98,22 @@ export default {
     async extractDocument() {
       this.isExtract = false;
       this.text = this.textraw;
+      const dataReq = {
+        text: this.text,
+        lan: this.lan_req,
+        ngram: this.ngram_req,
+        feauture: this.feauture_req
+      };
+      console.log(dataReq);
       if (this.text === "") {
         this.text = "no data";
+      } else {
+        try {
+          // post data
+          const data = await this.$aixos.$post("/api/home", dataReq);
+        } catch (err) {
+          console.log(err);
+        }
       }
     },
     reload() {
