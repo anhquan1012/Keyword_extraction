@@ -65,6 +65,7 @@
 </template>
 
 <script>
+import { mapState, mapActions } from "vuex";
 export default {
   components: {},
   data() {
@@ -94,7 +95,11 @@ export default {
       ]
     };
   },
+  computed: {
+    ...mapState("text", ["dataRes"])
+  },
   methods: {
+    ...mapActions("text", ["PostText"]),
     async extractDocument() {
       this.isExtract = false;
       this.text = this.textraw;
@@ -108,12 +113,8 @@ export default {
       if (this.text === "") {
         this.text = "no data";
       } else {
-        try {
-          // post data
-          const data = await this.$aixos.$post("/api/home", dataReq);
-        } catch (err) {
-          console.log(err);
-        }
+        const { isSuccess } = await this.PostText(dataReq);
+        console.log(this.dataRes);
       }
     },
     reload() {
