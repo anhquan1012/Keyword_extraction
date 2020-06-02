@@ -1,5 +1,6 @@
 from segtok.segmenter import split_multi
 from segtok.tokenizer import web_tokenizer, split_contractions
+import spacy
 
 import networkx as nx
 import numpy as np
@@ -27,6 +28,7 @@ class DataCore(object):
         for i in range(n):
             self.freq_ns[i+1] = 0.
         self.stopword_set = stopword_set
+        self.nlp = spacy.load("vi_spacy_model")
         self._build(text, windowsSize, n)
 
     def build_candidate(self, candidate_string):
@@ -47,7 +49,7 @@ class DataCore(object):
     # Build the datacore features
     def _build(self, text, windowsSize, n):
         text = self.pre_filter(text)
-        self.sentences_str = [ [w for w in split_contractions(web_tokenizer(s)) if not (w.startswith("'") and len(w) > 1) and len(w) > 0] for s in list(split_multi(text)) if len(s.strip()) > 0]
+        self.sentences_str = [[w.text for w in self.nlp(s) if not (w.text.startswith("'") and len(w.text) > 1) and len(w.text) > 0] for s in list(split_multi(text)) if len(s.strip()) > 0]
         self.number_of_sentences = len(self.sentences_str)
         pos_text = 0
         block_of_word_obj = []
@@ -111,6 +113,7 @@ class DataCore(object):
     def build_mult_terms_features(self, features=None):
         list(map(lambda x: x.updateH(features=features), [cand for cand in self.candidates.values() if cand.isValid()]))
 
+    # cac dong dc ghep voi nhau neu chu dau tien cac dong khong duoc viet hoa
     def pre_filter(self, text):
         prog = re.compile("^(\\s*([A-Z]))")
         parts = text.split('\n')
@@ -128,13 +131,14 @@ class DataCore(object):
             float(w2)
             return "d"
         except:
-            cdigit = len([c for c in word if c.isdigit()])
-            calpha = len([c for c in word if c.isalpha()])
-            if ( cdigit > 0 and calpha > 0 ) or (cdigit == 0 and calpha == 0) or len([c for c in word if c in self.exclude]) > 1:
+            word_ = word.replace('_','')
+            cdigit = len([c for c in word_ if c.isdigit()])
+            calpha = len([c for c in word_ if c.isalpha()])
+            if ( cdigit > 0 and calpha > 0 ) or (cdigit == 0 and calpha == 0) or len([c for c in word_ if c in self.exclude]) > 1:
                 return "u"
-            if len(word) == len([c for c in word if c.isupper()]):
+            if len(word_) == len([c for c in word_ if c.isupper()]):
                 return "a"
-            if len([c for c in word if c.isupper()]) == 1 and len(word) > 1 and word[0].isupper() and i > 0:
+            if len([c for c in word_ if c.isupper()]) == 1 and len(word_) > 1 and word_[0].isupper() and i > 0:
                 return "n"
         return "p"
 

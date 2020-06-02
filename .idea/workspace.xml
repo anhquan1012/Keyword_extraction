@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54c70dc3-ebcd-4816-8b92-334f9a4ede7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/constants.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/constants.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/push_images.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/push_images.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/test_image_calls.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/test_image_calls.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/tests/test_yake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/tests/test_yake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_bg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_bg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_br.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_br.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_cz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_cz.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_da.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_da.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_de.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_de.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_el.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_el.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_en.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_es.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_es.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_et.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_et.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_it.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ja.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_nl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_nl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_no.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_no.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ru.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ru.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_tr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_tr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_uk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_uk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_zh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_zh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/datarepresentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/datarepresentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/highlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/highlight.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ckE9HLuOxjkK27VnnLG5VTvg9g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54c70dc3-ebcd-4816-8b92-334f9a4ede7f" name="Default Changelist" comment="" />
+      <created>1591064037988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591064037988</updated>
+      <workItem from="1591064041285" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
