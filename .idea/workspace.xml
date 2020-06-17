@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c70dc3-ebcd-4816-8b92-334f9a4ede7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/constants.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/constants.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/push_images.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/push_images.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/docker/test_image_calls.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docker/test_image_calls.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/docs/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/tests/test_yake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/tests/test_yake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_bg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_bg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_br.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_br.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_cz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_cz.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_da.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_da.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_de.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_de.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_el.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_el.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_en.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_es.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_es.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_et.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_et.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_fr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_hy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_it.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ja.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_lv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_nl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_nl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_no.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_no.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_pt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ro.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ru.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_ru.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_sv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_tr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_tr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_uk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_uk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_zh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/StopwordsList/stopwords_zh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/datarepresentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/datarepresentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Module/yake/highlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Module/yake/highlight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Keyword_extraction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Keyword_extraction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +23,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="pytest in dunganh" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="Keyword_extraction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/yake/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,10 +56,48 @@
       <option name="presentableId" value="Default" />
       <updated>1591064037988</updated>
       <workItem from="1591064041285" duration="18000" />
+      <workItem from="1591342538271" duration="2064000" />
+      <workItem from="1591410386410" duration="8574000" />
+      <workItem from="1591498807365" duration="186000" />
+      <workItem from="1591500255073" duration="668000" />
+      <workItem from="1591619840144" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591342991185">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state x="163" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.26.1322.742@44.26.1322.742" timestamp="1591342991185" />
+    <state x="88" y="175" width="424" height="491" key="FileChooserDialogImpl" timestamp="1591413765328">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state x="88" y="175" width="424" height="491" key="FileChooserDialogImpl/44.26.1322.742@44.26.1322.742" timestamp="1591413765328" />
+    <state width="506" height="635" key="GridCell.Tab.0.bottom" timestamp="1591458959887">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state width="506" height="635" key="GridCell.Tab.0.bottom/44.26.1322.742@44.26.1322.742" timestamp="1591458959887" />
+    <state width="506" height="635" key="GridCell.Tab.0.center" timestamp="1591458959887">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state width="506" height="635" key="GridCell.Tab.0.center/44.26.1322.742@44.26.1322.742" timestamp="1591458959887" />
+    <state width="506" height="635" key="GridCell.Tab.0.left" timestamp="1591458959887">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state width="506" height="635" key="GridCell.Tab.0.left/44.26.1322.742@44.26.1322.742" timestamp="1591458959887" />
+    <state width="506" height="635" key="GridCell.Tab.0.right" timestamp="1591458959887">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state width="506" height="635" key="GridCell.Tab.0.right/44.26.1322.742@44.26.1322.742" timestamp="1591458959887" />
+    <state x="216" y="31" width="977" height="737" key="SettingsEditor" timestamp="1591342979364">
+      <screen x="44" y="26" width="1322" height="742" />
+    </state>
+    <state x="216" y="31" width="977" height="737" key="SettingsEditor/44.26.1322.742@44.26.1322.742" timestamp="1591342979364" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Keyword_extraction$pytest_in_dunganh.coverage" NAME="pytest in dunganh Coverage Results" MODIFIED="1591418373506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
