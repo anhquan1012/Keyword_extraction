@@ -4,13 +4,13 @@
 """Tests for yake package."""
 
 import pytest
-import yake.highlight
 from click.testing import CliRunner
 
 import sys, os
-myPath = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, myPath + '/../')
-
+sys.path.append('/home/luuthanh/Desktop/Keyword_extraction/Backend/Module/yake/yake.py')
+print(sys.path)
+# myPath = os.path.dirname(os.path.abspath(__file__))
+# sys.path.insert(0, myPath + '/../')
 import yake
 
 def test_simple_interface():
@@ -76,4 +76,4 @@ Ingram, 25 tuổi, mang khẩu trang, nói rằng cô bị hen suyễn và lo s�
     # print(highlight.highlight(text_content, result))
 
     assert len(result) > 0
-    
+test_simple_interface()

@@ -48,6 +48,7 @@ class DataCore(object):
 
     # Build the datacore features
     def _build(self, text, windowsSize, n):
+        print(self.stopword_set)
         text = self.pre_filter(text)
         self.sentences_str = [[w.text for w in self.nlp(s) if not (w.text.startswith("'") and len(w.text) > 1) and len(w.text) > 0] for s in list(split_multi(text)) if len(s.strip()) > 0]
         self.number_of_sentences = len(self.sentences_str)
