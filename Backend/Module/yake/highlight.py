@@ -1,7 +1,7 @@
 import re
 
-DEFAULT_HIGHLIGHT_PRE = "<kw>"
-DEFAULT_HIGHLIGHT_POST = "</kw>"
+DEFAULT_HIGHLIGHT_PRE = "<mark>"
+DEFAULT_HIGHLIGHT_POST = "</mark>"
 
 class TextHighlighter(object):
 

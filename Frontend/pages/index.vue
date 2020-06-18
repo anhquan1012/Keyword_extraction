@@ -19,15 +19,15 @@
         </v-card>
 
         <v-row>
-          <v-col cols="3">
+          <!-- <v-col cols="3">
             <v-select label="Language" :items="lan" v-model="lan_req"></v-select>
-          </v-col>
+          </v-col> -->
           <v-col cols="3">
             <v-select label="N-gram" :items="ngram" v-model="ngram_req"></v-select>
           </v-col>
-          <v-col cols="3">
+          <!-- <v-col cols="3">
             <v-select label="Feauture" :items="feauture" v-model="feauture_req" attach multiple></v-select>
-          </v-col>
+          </v-col> -->
           <v-col cols="3">
             <v-select label="Number of keywords" :items="numberOfWord" v-model="noW"></v-select>
           </v-col>
@@ -80,12 +80,12 @@ export default {
       lan: ["en", "vi"],
       noW: 5,
       numberOfWord: [5, 10, 15, 20],
-      feauture: ["WFreq", "WRel", "tf", "WCase", "WPos", "WSpread"],
+      // feauture: ["WFreq", "WRel", "tf", "WCase", "WPos", "WSpread"],
       ngram: [1, 2, 3, 4, 5],
       text: "",
       textraw: "",
-      lan_req: "vi",
-      feauture_req: ["WRel", "tf"],
+      // lan_req: "vi",
+      // feauture_req: ["WRel", "tf"],
       ngram_req: 3,
       headers: [
         {

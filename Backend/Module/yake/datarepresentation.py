@@ -48,7 +48,7 @@ class DataCore(object):
 
     # Build the datacore features
     def _build(self, text, windowsSize, n):
-        print(self.stopword_set)
+        # print(self.stopword_set)
         text = self.pre_filter(text)
         self.sentences_str = [[w.text for w in self.nlp(s) if not (w.text.startswith("'") and len(w.text) > 1) and len(w.text) > 0] for s in list(split_multi(text)) if len(s.strip()) > 0]
         self.number_of_sentences = len(self.sentences_str)
@@ -157,7 +157,7 @@ class DataCore(object):
         for pontuation in self.exclude:
             simples_unique_term = simples_unique_term.replace(pontuation, '')
         # until here
-        isstopword = simples_sto or unique_term in self.stopword_set or len(simples_unique_term) < 3
+        isstopword = simples_sto or unique_term in self.stopword_set
         
         term_id = len(self.terms)
         term_obj = single_word(unique_term, term_id, self.G)

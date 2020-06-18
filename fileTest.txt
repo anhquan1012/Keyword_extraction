@@ -1,0 +1,5 @@
+Text: 
+Kể từ sau cái chết của người đàn ông da màu George Floyd cách đây 3 tuần, vai trò của lực lượng cảnh sát trở thành tâm điểm trong các cuộc thảo luận và biểu tình ở Mỹ. Hàng nghìn người đã kêu gọi chính quyền nhanh chóng cải cách hệ thống cảnh sát quốc gia, thậm chí giải thể các sở cảnh sát với hy vọng nguồn ngân sách được chuyển cho những chương trình khác.
+Tham số :  n =3 ; top = 10
+
+Text: 
