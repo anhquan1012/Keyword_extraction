@@ -46,7 +46,7 @@ def get_text():
         word  = [w[0] for w in resultWords]
         text = pre_process(text)
         for i in word:
-            text = text.replace(i,"<mark>{}</mark>".format(i))
+            text = text.replace(" {} ".format(i),"<mark> {} </mark>".format(i))
     
 
         # print(text_hg)
