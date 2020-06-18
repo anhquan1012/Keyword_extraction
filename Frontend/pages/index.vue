@@ -61,7 +61,8 @@
           :headers="headers"
           :items="items"
           hide-default-header
-          hide-default-footer
+         
+          :item-per-page="100"
           class="elevation-1"
         ></v-data-table>
       </v-col>
@@ -120,6 +121,7 @@ export default {
       } else {
         const { isSuccess } = await this.PostText(dataReq);
         this.items = this.dataRes.result;
+        console.log(this.items)
         // for (let index = 0; index < this.items.length; index++) {
         //   this.keywords[index] = this.items[index].word;
         // }

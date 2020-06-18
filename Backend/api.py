@@ -12,18 +12,18 @@ from Module.yake import yake
 app = Flask(__name__)
 
 
-def pre_process(text):
+# def pre_process(text):
     
-    # lowercase
-    text=text.lower()
+#     # lowercase
+#     text=text.lower()
     
-    #remove tags
-    text=re.sub("</?.*?>"," <> ",text)
+#     #remove tags
+#     text=re.sub("</?.*?>"," <> ",text)
     
-    # remove special characters and digits
-    text=re.sub("(\\d|\\W)+"," ",text)
+#     # remove special characters and digits
+#     text=re.sub("(\\d|\\W)+"," ",text)
     
-    return text
+#     return text
 
 
 @app.route("/api/home", methods=["POST", "GET"])
@@ -41,14 +41,15 @@ def get_text():
         resultWords = keywords.extract_keywords(text)
         resultWords = [(k[0].replace("_"," "), round(k[1],5)) for k in resultWords]
         # print(resultWords)
-        # th = highlight.TextHighlighter(max_ngram_size=ngram)
-        # text_hg = th.highlight(text, resultWords)
-        word  = [w[0] for w in resultWords]
-        text = pre_process(text)
-        for i in word:
-            text = text.replace(" {} ".format(i),"<mark> {} </mark>".format(i))
-    
+        th = highlight.TextHighlighter(max_ngram_size=ngram)
+        text_hg = th.highlight(text, resultWords)
+        
+        # word  = [w[0] for w in resultWords]
 
+        # text = text.lower()
+        # for i in word:
+        #     text = text.replace(" {} ".format(i)," <mark>{}</mark> ".format(i))
+        
         # print(text_hg)
         # word = [w[0].replace("_"," ") for w in resultWords]
         # for w in word:
@@ -66,9 +67,9 @@ def get_text():
 
         # print(resultWords)
         result = {}
-        result['text'] = text
+        result['text'] = text_hg
         result['result'] = array
-        # print(result)
+        print(result['result'])
         return jsonify(result)
 
 
